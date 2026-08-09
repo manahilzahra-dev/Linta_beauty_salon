@@ -1,3 +1,9 @@
+import heroImage from "../assets/images/pakistani_barat_bride_1786262223393.jpg";
+import hairTransImage from "../assets/images/pakistani_balayage_hair_1786262265868.jpg";
+import bridalImage from "../assets/images/pakistani_valima_bride_1786262247822.jpg";
+import interiorImage from "../assets/images/luxury_salon_interior_1786261080607.jpg";
+import hydrafacialImage from "../assets/images/pakistani_hydrafacial_1786262288487.jpg";
+
 export interface ServiceItem {
   id: string;
   name: string;
@@ -71,13 +77,13 @@ export const SALON_INFO = {
     { days: "Sunday", hours: "12:00 PM - 7:00 PM" },
     { days: "Bridal Appointments", hours: "Early morning slots available upon booking" }
   ],
-  images: {
-    hero: "/src/assets/images/pakistani_barat_bride_1786262223393.jpg",
-    hairTrans: "/src/assets/images/pakistani_balayage_hair_1786262265868.jpg",
-    bridalLook: "/src/assets/images/pakistani_valima_bride_1786262247822.jpg",
-    interior: "/src/assets/images/luxury_salon_interior_1786261080607.jpg",
-    hydrafacial: "/src/assets/images/pakistani_hydrafacial_1786262288487.jpg"
-  }
+ images: {
+  hero: heroImage,
+  hairTrans: hairTransImage,
+  bridalLook: bridalImage,
+  interior: interiorImage,
+  hydrafacial: hydrafacialImage,
+}
 };
 
 export const WHY_CHOOSE_US = [
