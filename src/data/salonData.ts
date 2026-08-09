@@ -65,8 +65,8 @@ export const SALON_INFO = {
   googleRating: 4.7,
   totalReviews: 38,
   phone: "+92 333 0247837",
-  phoneRaw: "9233330247837",
-  whatsappUrl: "https://wa.me/9233330247837",
+  phoneRaw: "923330247837",
+  whatsappUrl: "https://wa.me/923330247837",
   address: "A-98, Street No.7, Block L North Nazimabad, Karachi, Pakistan",
   area: "Block L North Nazimabad, Karachi",
   instagram: {
