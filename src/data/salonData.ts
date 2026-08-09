@@ -3,6 +3,10 @@ import hairTransImage from "../assets/images/pakistani_balayage_hair_17862622658
 import bridalImage from "../assets/images/pakistani_valima_bride_1786262247822.jpg";
 import interiorImage from "../assets/images/luxury_salon_interior_1786261080607.jpg";
 import hydrafacialImage from "../assets/images/pakistani_hydrafacial_1786262288487.jpg";
+import cleanUp from "../assets/images/cleanUp.jpg"
+import  HerbalWhitingFacial from "../assets/images/herbalWhitingFacial.jpg"
+import PrecisionThreadingWaxing from  "../assets/images/PrecisionThreading&Waxing.jpg"
+import partymakeup from "../assets/images/partymakeup.png"
 
 export interface ServiceItem {
   id: string;
@@ -227,7 +231,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     duration: "60 mins",
     description: "Targeted skin brightening, anti-acne, or soothing herbal facial therapies tailored to Karachi climate skin needs.",
     popular: false,
-    image: "https://images.unsplash.com/photo-1512290900676-26c2a4a2b5ae?auto=format&fit=crop&q=80&w=800",
+    image: HerbalWhitingFacial,
     highlights: ["Soothing face massage", "Dead skin exfoliation", "Customized mask formulation"]
   },
   {
@@ -238,7 +242,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     duration: "40 mins",
     description: "Quick blackhead extraction, steam, and scrub routine to unclog pores and refresh tired skin.",
     popular: false,
-    image: "https://images.unsplash.com/photo-1512290900676-26c2a4a2b5ae?auto=format&fit=crop&q=80&w=800",
+    image: cleanUp,
     highlights: ["Gentle steam", "Pore clearing scrub", "Hydrating mask"]
   },
   {
@@ -249,7 +253,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     duration: "30 mins",
     description: "Eyebrow shaping, full face threading, and painless fruit or rica body waxing for velvety smooth skin.",
     popular: false,
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=800",
+    image: PrecisionThreadingWaxing,
     highlights: ["Sharp eyebrow mapping", "Soothing post-wax lotion", "Sensitive skin friendly"]
   },
   {
@@ -282,7 +286,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     duration: "90 mins",
     description: "Stunning party look with soft glam or bold eye makeup, customized hair styling, and setting spray lock.",
     popular: true,
-    image: SALON_INFO.images.hero,
+    image: partymakeup,
     highlights: ["Soft glam or smokey eyes", "Custom hair styling", "All-day transfer-proof"]
   }
 ];
