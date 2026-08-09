@@ -1,0 +1,6 @@
+{
+  "name": "Linta's Beauty Salon",
+  "description": "A luxury Pakistani beauty salon website proposal for Linta's Beauty Salon in North Nazimabad, Karachi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
